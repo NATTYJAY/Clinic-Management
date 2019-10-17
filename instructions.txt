@@ -1,0 +1,13 @@
+DATA MINING INSTALLATION PROCESS
+
+Steps:
+
+1) unzip the folder
+2) Copy the folder to your server directory
+3) Export the database called "mining.sql"
+4) Run the application 
+5) Login with Email = admin@admin.com
+	      
+	      Password = 123456
+
+6) There you go !. 

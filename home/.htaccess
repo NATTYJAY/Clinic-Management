@@ -1,0 +1,13 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^sdate$ date.php [NC,L]
+RewriteRule ^rangers$ date_range.php [NC,L]
+RewriteRule ^rangers/([A-Za-z0-9.]+)$ date_range.php?pid=$1 [NC,L]
+RewriteRule ^specialize$ add_doctor.php [NC,L]
+RewriteRule ^patients$ addpatient.php [NC,L]
+RewriteRule ^treatments$ add_treat.php [NC,L]   
+RewriteRule ^treatments/([A-Za-z0-9.]+)$ add_treat.php?id=$1 [NC,L]
+
+RewriteRule ^viewAll/([A-Za-z0-9.]+)$ view_treatment.php?id=$1 [NC,L]
+RewriteRule ^ourusers$ add_user.php [NC,L]
